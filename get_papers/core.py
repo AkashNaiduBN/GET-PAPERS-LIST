@@ -8,7 +8,7 @@ def fetch_pubmed_ids(query: str) -> List[str]:
         "db": "pubmed",
         "term": query,
         "retmode": "json",
-        "retmax": 25,
+        "retmax": 10,
     }
     response = requests.get(url, params=params)
     response.raise_for_status()

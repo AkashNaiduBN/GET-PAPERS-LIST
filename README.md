@@ -17,6 +17,10 @@ A command-line tool to fetch and save recent research papers from **PubMed** bas
 - Saves results into a `.csv` file
 - Written in **Python 3.13+**, CLI powered by `poetry`
 
-# usage
-poetry run get-papers-list "your search query" --file output.csv --debug
+```md
+## Usage
+
+```bash
+poetry install
+poetry run get-papers-list "cancer therapy" -f cancer_therapy_results.csv  --debug
 
