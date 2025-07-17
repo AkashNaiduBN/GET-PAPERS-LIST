@@ -4,7 +4,7 @@ A command-line tool to fetch and filter biomedical research papers from **PubMed
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 get-papers-list/
 │
@@ -23,31 +23,31 @@ get-papers-list/
 
 ---
 
-## ⚙️ Features
+## Features
 
-- 🔍 Accepts any search query (e.g., `"cancer immunotherapy"`)
-- 📦 Extracts:
+- Accepts any search query (e.g., `"cancer immunotherapy"`)
+- Extracts:
   - PubMed ID
   - Title
   - Publication Date
   - Non-academic Author(s)
   - Company Affiliation(s)
   - Corresponding Author Email
-- 🎯 Filters out **purely academic** affiliations
-- 💾 Optionally saves output to CSV
-- 📢 Supports helpful CLI flags:
+- Filters out **purely academic** affiliations
+- Optionally saves output to CSV
+- Supports helpful CLI flags:
   - `-f` / `--file` to save results
   - `-d` / `--debug` for verbose output
   - `-h` / `--help` for usage instructions
-- ✅ Tested using `pytest`
-- 🔁 Designed for automation and CI/CD (GitHub Actions ready)
-- 🧪 Typed and modular Python 3.13+ code
+- Tested using `pytest`
+- Designed for automation and CI/CD (GitHub Actions ready)
+- Typed and modular Python 3.13+ code
 
 ---
 
-## 🛠️ Installation
+## Installation
 
-You must have Python **3.13+** and Poetry installed.
+Python **3.13+** and Poetry installed.
 
 ```bash
 git clone https://github.com/AkashNaiduBN/GET-PAPERS-LIST
